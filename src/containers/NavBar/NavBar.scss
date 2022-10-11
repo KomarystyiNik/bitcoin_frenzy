@@ -1,0 +1,36 @@
+@import "src/styles/_global-variables.scss";
+
+.nav-bar-container {
+  @include dark-background;
+  width: 360px;
+  padding: 16px 0px 0 24px;
+
+  ul {
+    list-style: none;
+
+    .bold {
+      font-weight: 600;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+      }
+
+      svg {
+        color: white;
+        height: 14px;
+        margin-right: 6px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "src/styles/_global-variables.scss";
+
+.history-bar-container {
+  width: 420px;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: silver;
+  color: $main-color;
+  font-size: 14px;
+
+  .action {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 8px 16px 8px;
+    border-bottom: 1px solid gray;
+
+    .description {
+      padding:16px;
+      font-weight: 500;
+    }
+  }
+}

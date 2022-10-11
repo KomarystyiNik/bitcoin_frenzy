@@ -1,0 +1,52 @@
+@import "src/styles/_global-variables.scss";
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+
+  .main {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 72px);
+    background-color: white;
+ 
+    .page-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 24px;
+      background-color: white;
+      flex-grow: 2;
+      height: 70%;
+
+      span {
+        display: block;
+        margin-bottom: 48px;
+        font-weight: 600;
+        font-size: 20;
+        font-size: 20;
+        color: $main-color;
+      }
+
+      button {
+        background-color: $main-color;
+        padding: 8px 16px;
+        width: 150px;
+        color: white;
+        border: none;
+        border-radius: 16px;
+        margin: 0px 15px 20px 15px;
+        
+          &:hover {
+            cursor: pointer;
+          }
+       }
+    }
+    
+  }
+
+
+}

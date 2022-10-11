@@ -1,0 +1,7 @@
+$main-color: #303f9f;
+
+@mixin dark-background {
+  background-color: $main-color;
+  color: white;
+}
+
